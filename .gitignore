@@ -15,4 +15,4 @@
 /gradle/*
 /captures
 .externalNativeBuild
-!/main/*
+
