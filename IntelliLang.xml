@@ -4,5 +4,9 @@
       <display-name>application/@allowBackup</display-name>
       <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("allowBackup")).withNamespace(string().equalTo("http://schemas.android.com/apk/res/android")).withParent(xmlTag().withLocalName(string().equalTo("application")))]]></place>
     </injection>
+    <injection language="XML" injector-id="xml">
+      <display-name>resources</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("resources"))]]></place>
+    </injection>
   </component>
 </application>
