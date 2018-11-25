@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="signature_by_author" type="Image" />
       <mapping ext="db" type="SQL" />
+      <mapping pattern="context" type="XML" />
     </extensionMap>
   </component>
 </application>
